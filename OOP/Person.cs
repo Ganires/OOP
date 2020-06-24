@@ -21,7 +21,7 @@ namespace OOP
             Console.WriteLine(Name + " " + Surname);
         }
         public string ShowFullName(string FatherName)
-        {
+        { 
             return Name + " " + Surname+" "+ FatherName;
         }
         public void ShowFullName(string FatherName, string MatherName)
